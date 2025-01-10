@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #output {
+            margin-top: 20px;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-left: 5px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Library System</h1>
+    <form id="addBookForm">
+        <h2>Add a book</h2>
+        <label for="addTitle">Title:</label>
+        <input type="text" id="addTitle" required>
+        <label for="addAuthor">Author:</label>
+        <input type="text" id="addAuthor" required>
+        <button type="submit">Add Book</button>
+    </form>
+    <form id="borrowBookForm">
+        <h2>Borrow a Book</h2>
+        <label for="borrowTitle">Title:</label>
+        <input type="text" id="borrowTitle" required>
+        <button type="submit">Borrow Book</button>
+    </form>
+    <!-- Return Book Form -->
+    <form id="returnBookForm">
+        <h2>Return a Book</h2>
+        <label for="returnTitle">Title:</label>
+        <input type="text" id="returnTitle" required>
+        <button type="submit">Return Book</button>
+    </form>   
+
+    <!-- List Available Books -->
+    <h2>Available Books</h2>
+    <button id="listBooksButton">List Available Books</button>
+
+    <!-- Output Section -->
+    <div id="output"></div>
+
+
+
+
+</body>
+
+
+<script src="./library.js">
+
+</script>
+</html>

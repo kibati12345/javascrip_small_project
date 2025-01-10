@@ -1,0 +1,11 @@
+Small Project 
+
+Build a basic to do list------------------- done
+Build a basic library -------------------
+Calculator (basic math operations).--------------
+Digital Clock (using setInterval() and Date).------------
+Color Picker (change the background color of a webpage dynamically).---------
+Countdown Timer (input a time and count down to zero).-----------
+Simple Quiz App (with multiple-choice questions).---------
+Random Joke Generator (fetching data from an API).-------------
+Weather App (showing static data or fetching it from an API).----------------
